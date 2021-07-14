@@ -181,6 +181,27 @@ a {
   border-radius: 30px;
 }
 
+table style stard  
+-------------------*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+table thead tr th{
+    border: 1px solid #ddd;
+    padding:5px 10px 
+}
+table tbody tr td{
+    font-size: 15px;
+    border: 1px solid #ddd;
+    padding:3px 10px ;
+    color: rgb(68 66 66);
+}
+/*------------------
+table style end  
+-------------------*/
+
+
 /*----------- 
     footer
  -----------*/
@@ -215,6 +236,7 @@ a {
     margin-left: 77px;
     margin-right: 76px;
   }
+  
 }
 @media only screen and (max-width: 688px) {
   .all-player {
@@ -241,6 +263,23 @@ a {
   .half-width{
     width: 100%;
   }
+   
+/* table secton stard  */
+   table{
+    width: 50%;
+    margin: auto;
+   }
+   table tbody tr td{
+       padding: 5px ;
+       font-size: 10px ;
+   }
+   table thead tr th{
+    padding: 10px ;
+    font-size: 15px ;
+ 
+   }
+   /* table secton end  */
+
 
 }
 @media only screen and (max-width: 558px){
